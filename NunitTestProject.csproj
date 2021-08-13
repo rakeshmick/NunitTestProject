@@ -11,11 +11,12 @@
     <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="Microsoft.NETCore.DotNetHostResolver" Version="5.0.9" />
-    <PackageReference Include="runtime.debian.8-x64.Microsoft.NETCore.DotNetHost" Version="1.1.13" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Microsoft.NETCore.DotNetHostResolver" />
     <None Remove="runtime.debian.8-x64.Microsoft.NETCore.DotNetHost" />
+    <None Remove="Microsoft.NETCore.App" />
   </ItemGroup>
 </Project>
