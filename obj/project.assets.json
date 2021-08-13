@@ -75,6 +75,15 @@
           "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
         }
       },
+      "Microsoft.NETCore.DotNetAppHost/5.0.9": {
+        "type": "package"
+      },
+      "Microsoft.NETCore.DotNetHostResolver/5.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "5.0.9"
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -456,6 +465,15 @@
         },
         "build": {
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
+        }
+      },
+      "runtime.debian.8-x64.Microsoft.NETCore.DotNetHost/1.1.13": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/debian.8-x64/native/dotnet": {
+            "assetType": "native",
+            "rid": "debian.8-x64"
+          }
         }
       },
       "runtime.native.System/4.3.0": {
@@ -1357,6 +1375,36 @@
         "microsoft.net.test.sdk.nuspec"
       ]
     },
+    "Microsoft.NETCore.DotNetAppHost/5.0.9": {
+      "sha512": "UKWp2eCVljQq7TBvDVAh3qzjkroHndIAo/qQHqUrTduD3xONOG6QA9cjzlQY/q3wCY0G+JrXkFLWfoRzOkYUpg==",
+      "type": "package",
+      "path": "microsoft.netcore.dotnetapphost/5.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.dotnetapphost.5.0.9.nupkg.sha512",
+        "microsoft.netcore.dotnetapphost.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.DotNetHostResolver/5.0.9": {
+      "sha512": "hOHo5of5iij3Cg+BDhZpDO+WpPnmBQOweuiSJkt1eYVRYZ4oao4yjzA9TtSwIofHnL88WESA/DkljKJrDQjnpQ==",
+      "type": "package",
+      "path": "microsoft.netcore.dotnethostresolver/5.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.dotnethostresolver.5.0.9.nupkg.sha512",
+        "microsoft.netcore.dotnethostresolver.nuspec",
+        "runtime.json"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -1900,6 +1948,21 @@
         "build/netcoreapp2.1/nunit.engine.dll",
         "nunit3testadapter.3.16.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "runtime.debian.8-x64.Microsoft.NETCore.DotNetHost/1.1.13": {
+      "sha512": "P1GYrgYgiyybjpKfYtmv1ANdS4MICzz6nGHdD5tlD+Nxtc0nEXrYdPn6QWGFxGf5yStBY1iRzChD6uCUIahBpQ==",
+      "type": "package",
+      "path": "runtime.debian.8-x64.microsoft.netcore.dotnethost/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.debian.8-x64.microsoft.netcore.dotnethost.1.1.13.nupkg.sha512",
+        "runtime.debian.8-x64.microsoft.netcore.dotnethost.nuspec",
+        "runtimes/debian.8-x64/native/dotnet",
+        "version.txt"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -4618,8 +4681,10 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "Microsoft.NETCore.DotNetHostResolver >= 5.0.9",
       "NUnit >= 3.12.0",
-      "NUnit3TestAdapter >= 3.16.1"
+      "NUnit3TestAdapter >= 3.16.1",
+      "runtime.debian.8-x64.Microsoft.NETCore.DotNetHost >= 1.1.13"
     ]
   },
   "packageFolders": {
@@ -4663,6 +4728,10 @@
             "target": "Package",
             "version": "[16.5.0, )"
           },
+          "Microsoft.NETCore.DotNetHostResolver": {
+            "target": "Package",
+            "version": "[5.0.9, )"
+          },
           "NUnit": {
             "target": "Package",
             "version": "[3.12.0, )"
@@ -4670,6 +4739,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.16.1, )"
+          },
+          "runtime.debian.8-x64.Microsoft.NETCore.DotNetHost": {
+            "target": "Package",
+            "version": "[1.1.13, )"
           }
         },
         "imports": [

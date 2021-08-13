@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "exfbHUSHvtxxjxHrjDZjESg1xnpJvxjRVZUnpNKoDLZRpsBkG30Ec2NFwOCVgWHw/OJjCY5h7Uxj71OvAw9WoQ==",
+  "dgSpecHash": "+I6s02exi04V/Utj7pedBqzGT2K5NARJ7XBGW09ceMhxtLCEYdG4PEC6ohpYfyHnpNmSijZ63smKrRcU5OVawA==",
   "success": true,
   "projectFilePath": "/Users/rakeshprabhakaran/Projects/NunitTestProject/NunitTestProject/NunitTestProject.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "/Users/rakeshprabhakaran/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/microsoft.dotnet.internalabstractions/1.0.0/microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/microsoft.net.test.sdk/16.5.0/microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "/Users/rakeshprabhakaran/.nuget/packages/microsoft.netcore.dotnetapphost/5.0.9/microsoft.netcore.dotnetapphost.5.0.9.nupkg.sha512",
+    "/Users/rakeshprabhakaran/.nuget/packages/microsoft.netcore.dotnethostresolver/5.0.9/microsoft.netcore.dotnethostresolver.5.0.9.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/microsoft.testplatform.objectmodel/16.5.0/microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
@@ -19,6 +21,7 @@
     "/Users/rakeshprabhakaran/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/nunit/3.12.0/nunit.3.12.0.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/nunit3testadapter/3.16.1/nunit3testadapter.3.16.1.nupkg.sha512",
+    "/Users/rakeshprabhakaran/.nuget/packages/runtime.debian.8-x64.microsoft.netcore.dotnethost/1.1.13/runtime.debian.8-x64.microsoft.netcore.dotnethost.1.1.13.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/system.appcontext/4.1.0/system.appcontext.4.1.0.nupkg.sha512",
     "/Users/rakeshprabhakaran/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
